@@ -5,7 +5,7 @@ import Featured from '../featured/Featured';
 
 const Statictics = () => {
     return (
-        <div>
+        <div className='container mx-auto manrope'>
             <Banner></Banner>
             <Categories></Categories>
             <Featured></Featured>

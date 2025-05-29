@@ -7,7 +7,7 @@ const Header = () => {
     <li className="des"><NavLink to="/blogs">Blogs</NavLink></li>
     </>
     return (
-        <div>
+        <div className="container mx-auto manrope">
             <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">

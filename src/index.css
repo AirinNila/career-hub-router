@@ -1,6 +1,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Manrope:wght@200..800&display=swap');
 
 .des {
     color: #757575;
+}
+
+.title {
+    color: #1A1919;
+}
+
+.primary {
+    color: #7E90FE;
+}
+
+.manrope {
+      font-family: "Manrope", sans-serif;
 }
