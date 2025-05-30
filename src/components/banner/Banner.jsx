@@ -1,3 +1,4 @@
+import img from '../assets/images/user.png'
 
 const Banner = () => {
     return (
@@ -5,8 +6,8 @@ const Banner = () => {
             <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
-      src="https://i.pinimg.com/736x/0a/d1/93/0ad19309a59be71b028548801ac38353.jpg"
-      className="max-w-sm rounded-lg shadow-2xl"
+      src={img}
+      className="max-w-sm rounded-lg "
     />
     <div>
       <h1 className="text-4xl md:text-6xl font-extrabold title">One Step <br /> Closer To Your <span className="primary" >Dream Job</span></h1>
