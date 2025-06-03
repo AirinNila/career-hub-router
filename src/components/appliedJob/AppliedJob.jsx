@@ -4,6 +4,7 @@ const AppliedJob = ({job}) => {
     const {logo, job_title, company_name, remote_or_onsite, job_type, location, salary} = job;
     return (
         <div className="container mx-auto">
+              
             <div className="flex flex-col md:flex-row items-center md:justify-between p-4 border-2 border-gray-300 rounded-md">
                <div className="flex gap-4 items-center">
                 <div>

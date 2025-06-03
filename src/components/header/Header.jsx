@@ -2,11 +2,13 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     const links = <>
-    <li className="text-[#7E90FE]"><NavLink to="/">Statistics</NavLink></li>
-    <li className="des"><NavLink to="/applied">Applied Jobs</NavLink></li>
-    <li className="des"><NavLink to="/blogs">Blogs</NavLink></li>
+    
+    <li className="des"><a><NavLink to="/">Statistics</NavLink></a></li>
+    <li className="des"><a><NavLink to="/applied">Applied Jobs</NavLink></a></li>
+    <li className="des"><a><NavLink to="/blogs">Blogs</NavLink></a></li>
     </>
     return (
+      <nav>
         <div className="container mx-auto manrope">
             <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -30,10 +32,11 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Star Applying</a>
+    <a className="btn bg-linear-to-r from-[#7E90FE] to-[#9873FF] text-white">Star Applying</a>
   </div>
 </div>
         </div>
+        </nav>
     );
 };
 
