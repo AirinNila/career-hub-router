@@ -12,7 +12,8 @@ import Applied from './components/applied/Applied.jsx';
 import Statictics from './components/statistics/Statictics.jsx';
 import Blogs from './components/blogs/Blogs.jsx';
 import ErrorPage from './components/errorpage/ErrorPage.jsx';
-import JobDetails from './components/jobDetails/jobDetails.jsx';
+import JobDetails from './components/jobDetails/JobDetails.jsx';
+
 
 const router = createBrowserRouter([
   {
